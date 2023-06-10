@@ -1,0 +1,17 @@
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Download Manager.exe.config
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Download Manager.exe
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Download Manager.pdb
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.csproj.AssemblyReference.cache
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.login.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.Properties.Resources.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.csproj.GenerateResource.cache
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.csproj.CoreCompileInputs.cache
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.exe
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.pdb
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.signUp.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Database1.mdf
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Database1_log.ldf
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Dapper.dll
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Dapper.xml
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.csproj.CopyComplete
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.main.resources
