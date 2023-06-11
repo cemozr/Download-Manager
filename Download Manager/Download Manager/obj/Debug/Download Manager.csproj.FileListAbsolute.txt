@@ -15,3 +15,10 @@ C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manage
 C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Dapper.xml
 C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.csproj.CopyComplete
 C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.main.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.addUrl.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.download.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download_Manager.settings.resources
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Download Manager.exe.manifest
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\bin\Debug\Download Manager.application
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.exe.manifest
+C:\Users\cemoz\Belgeler\GitHub\Download-Manager\Download Manager\Download Manager\obj\Debug\Download Manager.application

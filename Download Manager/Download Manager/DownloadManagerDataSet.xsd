@@ -65,7 +65,7 @@ SELECT username, password FROM UserList WHERE (username = @username)</CommandTex
   <xs:element name="DownloadManagerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DownloadManagerDataSet" msprop:Generator_UserDSName="DownloadManagerDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="UserList" msprop:Generator_TableClassName="UserListDataTable" msprop:Generator_TableVarName="tableUserList" msprop:Generator_TablePropName="UserList" msprop:Generator_RowDeletingName="UserListRowDeleting" msprop:Generator_RowChangingName="UserListRowChanging" msprop:Generator_RowEvHandlerName="UserListRowChangeEventHandler" msprop:Generator_RowDeletedName="UserListRowDeleted" msprop:Generator_UserTableName="UserList" msprop:Generator_RowChangedName="UserListRowChanged" msprop:Generator_RowEvArgName="UserListRowChangeEvent" msprop:Generator_RowClassName="UserListRow">
+        <xs:element name="UserList" msprop:Generator_TableClassName="UserListDataTable" msprop:Generator_TableVarName="tableUserList" msprop:Generator_RowChangedName="UserListRowChanged" msprop:Generator_TablePropName="UserList" msprop:Generator_RowDeletingName="UserListRowDeleting" msprop:Generator_RowChangingName="UserListRowChanging" msprop:Generator_RowEvHandlerName="UserListRowChangeEventHandler" msprop:Generator_RowDeletedName="UserListRowDeleted" msprop:Generator_RowClassName="UserListRow" msprop:Generator_UserTableName="UserList" msprop:Generator_RowEvArgName="UserListRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username">
@@ -85,11 +85,26 @@ SELECT username, password FROM UserList WHERE (username = @username)</CommandTex
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="Files" msprop:Generator_TableClassName="FilesDataTable" msprop:Generator_TableVarName="tableFiles" msprop:Generator_TablePropName="Files" msprop:Generator_RowDeletingName="FilesRowDeleting" msprop:Generator_RowChangingName="FilesRowChanging" msprop:Generator_RowEvHandlerName="FilesRowChangeEventHandler" msprop:Generator_RowDeletedName="FilesRowDeleted" msprop:Generator_UserTableName="Files" msprop:Generator_RowChangedName="FilesRowChanged" msprop:Generator_RowEvArgName="FilesRowChangeEvent" msprop:Generator_RowClassName="FilesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" msprop:Generator_UserColumnName="FileName" type="xs:string" minOccurs="0" />
+              <xs:element name="FileSize" msprop:Generator_ColumnVarNameInTable="columnFileSize" msprop:Generator_ColumnPropNameInRow="FileSize" msprop:Generator_ColumnPropNameInTable="FileSizeColumn" msprop:Generator_UserColumnName="FileSize" type="xs:string" minOccurs="0" />
+              <xs:element name="Url" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnPropNameInTable="UrlColumn" msprop:Generator_UserColumnName="Url" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:UserList" />
       <xs:field xpath="mstns:username" />
+    </xs:unique>
+    <xs:unique name="FilesKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Files" />
+      <xs:field xpath="mstns:Id" />
     </xs:unique>
   </xs:element>
 </xs:schema>
